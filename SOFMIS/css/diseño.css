@@ -1,0 +1,137 @@
+
+
+.nav_sobrepuesto {
+    position: fixed; 
+    right: 15%;
+    top: 10px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.container-fluid{
+    text-align: right;
+}
+.carousel-item{
+    height: 650px;
+}
+.container{
+    height: 800px;
+}
+.abajo{
+    background-color: rgba(0, 0, 0, 0.6);;
+    padding: 0px;
+    height: 77
+    ;
+    border-radius: 10px;
+
+}
+.color_nav{
+    color: white;
+    transition: all 0.5 ease;
+    letter-spacing: 5px;
+}
+.color_nav:hover{
+    padding: 10px 10px;
+    background:   #F8EF12;
+    color: black;
+    border-radius: 15px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+} 
+.text_carrusel_1 {
+    position: absolute; 
+    right: 70%;
+    top: -300px;
+    left: 10%;
+    z-index: 10;
+    color: #fff;
+    font-size: 5.80rem;
+    line-height: 1;
+    font-weight: 700;
+}
+.text_carrusel_2 {
+    position: absolute; 
+    right: 70%;
+    top: -220px;
+    left: 10%;
+    z-index: 10;
+    color: #F8EF12;
+    font-size: 5.80rem;
+    line-height: 1;
+    font-weight: 800;
+}
+.text_carrusel_3 {
+    position: absolute; 
+    right: 70%;
+    top: -120px;
+    left: 10%;
+    z-index: 10;
+    color: #fff;
+    font-size: 1.80rem;
+    line-height: 1;
+    font-weight: 100;
+    text-justify: auto;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color:  #F8EF12;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #9c9c9c;
+    font-weight: 600;
+  }
+  
+.button:hover {background-color: #F8EF12}
+
+.button:active {
+background-color:  #F8EF12;
+box-shadow: 0 5px #9c9c9c;
+transform: translateY(4px);
+  }
+.somos{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: none;
+}
+.caja h1{
+    text-align: center;
+}
+.somos_2{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.caja p{
+    text-align: justify;
+}
+.somos_2 h1{
+    text-align: center;
+
+}
+.somos_2 p{
+    text-align: justify;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+    
+
+  

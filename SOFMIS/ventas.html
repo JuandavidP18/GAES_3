@@ -1,0 +1,308 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\dashboard.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img\logo.jpg" type="image/x-icon">
+    <title>SOFMIS</title>
+</head>
+
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="img\logo.jpg"
+                        alt="logo_sofmis">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">SOFTMIS</span>
+                    <span class="profession">Papeleria </span>
+                </div>
+            </div>
+            <i class='bx bxs-chevrons-right toggle'></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search-alt icon'></i>
+                    <input type="search" placeholder="Buscar">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="dashboard.html">
+                            <i class='bx bxs-dashboard icon'></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="ventas.html">
+                            <i class='bx bx-cart-add icon'></i>
+                            <span class="text nav-text">Ventas</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="compras.html">
+                            <i class='bx bx-cart-download icon'></i>
+                            <span class="text nav-text">Compras</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="inventario.html">
+                            <i class='bx bx-package icon'></i>
+                            <span class="text nav-text">Inventarios</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="servicios.html">
+                            <i class='bx bxs-basket icon'></i>
+                            <span class="text nav-text">Servicios</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-content">
+                <li class="">
+                    <a href="index.html">
+                        <i class='bx bx-log-out icon'></i>
+                        <span class="text nav-text">Cerrar sesion</span>
+                    </a>
+                </li>
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Tema</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <section class="home">
+        <header>
+            <h2>
+                <label for="">
+                    <span class="las la-bars"></span>
+                </label>
+                Ventas
+            </h2>
+            <div class="search-wrapper">
+                <span class="las la-search"></span>
+                <i class='bx bx-search-alt icon'></i>
+                <input type="search" placeholder="Buscar">
+            </div>
+            <div class="user-wrapper">
+                <img src="img\foto_perfil.jpg"
+                    alt="admin" width="40px" height="40px">
+                <div>
+                    <h4>Juan David</h4>
+                    <small>Super admin</small>
+                </div>
+        </header>
+        <main>
+            <div class="tarjetas">
+                <div class="item add-product">
+                    <div  id="btn-abrir-modal">
+                        <i class='bx bxs-phone-call'></i>
+                        <h3>Nueva Venta</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-grid">
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Venta Recientes</h3>
+                            <div class="buscar_produc">
+                                <input type="search" placeholder="Buscar Venta">
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table width="100%">
+                                    <thead>
+                                        <tr>
+                                            <td>Nombre Cliente</td>
+                                            <td>Fecha</td>
+                                            <td>Ver</td>
+                                            <td>Estado</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Juan David Sierra</td>
+                                            <td>12/02/2023</td>
+                                            <td><i class='bx bx-low-vision'></i></td>
+                                            <td><div class="estado_venta"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Andres Sebastian</td>
+                                            <td>12/02/2023</td>
+                                            <td><i class='bx bx-low-vision'></i></td>
+                                            <td><div class="estado_venta1"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Daniel Felipe Valencia</td>
+                                            <td>12/02/2023</td>
+                                            <td><i class='bx bx-low-vision'></i></td>
+                                            <td><div class="estado_venta"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Will Elmer Morales</td>
+                                            <td>12/02/2023</td>
+                                            <td><i class='bx bx-low-vision'></i></td>
+                                            <td><div class="estado_venta1"></div></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Juan David Sierra</td>
+                                            <td>12/02/2023</td>
+                                            <td><i class='bx bx-low-vision'></i></td>
+                                            <td><div class="estado_venta1"></div></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Actividad</h3>
+                        <button>Ver mas<span class="las la-arrow-right"></span></button>
+                    </div>
+                    <div class="card-body">
+                        <div class="customer">
+                            <div class="info">
+                                <img src="img\foto_perfil.jpg"
+                                    alt="producto" width="40px" height="40px">
+                                <div>
+                                    <h4>Juan David</h4>
+                                    <small>Super Admin</small>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="button-admin">
+                                    Activo                                    
+                                </button>
+                            </div>
+                        </div>
+                        <div class="customer">
+                            <div class="info">
+                                <img src="img\foto_perfil.jpg"
+                                    alt="producto" width="40px" height="40px">
+                                <div>
+                                    <h4>Will Morales</h4>
+                                    <small>Cajero</small>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="button-admin">
+                                    Activo                                    
+                                </button>
+                            </div>
+                        </div>
+                        <div class="customer">
+                            <div class="info">
+                                <img src="img\foto_perfil.jpg"
+                                    alt="producto" width="40px" height="40px">
+                                <div>
+                                    <h4>Juan David</h4>
+                                    <small>Super Admin</small>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="button-admin">
+                                    Activo                                    
+                                </button>
+                            </div>
+                        </div>
+                        <div class="customer">
+                            <div class="info">
+                                <img src="img\foto_perfil.jpg"
+                                    alt="producto" width="40px" height="40px">
+                                <div>
+                                    <h4>Will Morales</h4>
+                                    <small>Cajero</small>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="button-admin">
+                                    Activo                                    
+                                </button>
+                            </div>
+                        </div>
+                        <div class="customer">
+                            <div class="info">
+                                <img src="img\foto_perfil.jpg"
+                                    alt="producto" width="40px" height="40px">
+                                <div>
+                                    <h4>Juan David</h4>
+                                    <small>Super Admin</small>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="button-admin">
+                                    Activo                                    
+                                </button>
+                            </div>
+                        </div>
+                        <div class="customer">
+                            <div class="info">
+                                <img src="img\foto_perfil.jpg"
+                                    alt="producto" width="40px" height="40px">
+                                <div>
+                                    <h4>Juan David</h4>
+                                    <small>Super Admin</small>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="button-admin">
+                                    Activo                                    
+                                </button>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <dialog id="modal" class="modal-add-produc">
+                <div class="ag-produc">
+                    <header>Registrar Venta</header>
+                    <form action="form first">
+                        <div class="details personal">
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Fecha de la venda</label>
+                                    <input type="text" placeholder="Nombre producto" required>
+                                    <label>Productos                   +mas</label>
+                                    <input type="text" placeholder="Precio producto" required>
+                                    <label>Subtotal</label>
+                                    <input type="text" placeholder="Precio producto" required>
+                                    <label>Total</label>
+                                    <input type="text" placeholder="Cantidad producto" required>
+                                    <label>Nombre Cliente:</label>
+                                    <input type="text" placeholder="Estado producto" required><br>
+                                    <button type="submit" id="btn-cerrar-modal" class="boton_guardar">Cerrar</button>
+                                    <button type="submit" class="boton_guardar"> Guardar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </dialog>
+        </main>
+    </section>
+    <script src="scrip.js"></script>
+</body>
+
+</html>
